@@ -193,6 +193,12 @@ hr.nav {
 		margin: 1em 0 1em 0;
 		
 	}
+	hr.rep {
+		border: 0;
+		border-top: solid 2px #828181;
+		margin: 1em 0 0.5em 0;
+		
+	}
 	
 hr.social {
 	border: 0;
@@ -207,8 +213,10 @@ hr.social {
 	}
 
 	p, ul, ol, dl, table {
-		margin-bottom: 3em;
+		margin: 0.5em 0 0 0;
 	}
+	
+	
 
 /* Section/Article */
 
@@ -3240,4 +3248,48 @@ hr.social {
 	float: left;
 	width: 150;
 	height: 150;
+}
+
+#more {
+	display: none;
+	}
+	
+	#mybtn {
+		  padding: 0.3em;
+  border: none;
+  outline: none;
+  margin: 0 0 0em 0;
+  font-size: 100%;
+
+	}
+	
+	#biginfo {
+		  padding: 0.3em;
+  border: none;
+  outline: none;
+  margin: 0 0 0em 0;
+  font-size: 110%;
+
+	}
+	
+	.showmore {
+  font-size: 1.1em;
+  margin-top: 0.5em;
+}
+
+.showmore .more, .showmore.show .dots {
+  display: none
+}
+
+.showmore.show .more {
+  display: inline
+}
+
+.showmore a {
+  cursor: pointer;
+  display: block;
+  margin-top: 0.5em;
+  margin-bottom: 1em;
+  font-weight: bold;
+  
 }
