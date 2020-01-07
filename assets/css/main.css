@@ -1834,11 +1834,96 @@ hr.social {
   margin-left: auto;
   margin-right: auto;
   width: 50%;
+  float: left;
 }
+
+			.center2 {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  float: center;
+			}
 
 /* Button */
 
 	input[type="button"],
+	input[type="submit"],
+	input[type="reset"],
+	button,
+	.button {
+		-webkit-appearance: none;
+		display: inline-block;
+		font-family: 'Open Sans Condensed', sans-serif;
+		font-weight: 700;
+		text-transform: uppercase;
+		text-decoration: none;
+		background: #b1ddab;
+		color: #fff;
+		border: 0;
+		line-height: 1em;
+		border-radius: 8px;
+		outline: 0;
+		cursor: pointer;
+		-moz-transition: background-color .2s ease-in-out;
+		-webkit-transition: background-color .2s ease-in-out;
+		-o-transition: background-color .2s ease-in-out;
+		-ms-transition: background-color .2s ease-in-out;
+		transition: background-color .2s ease-in-out;
+		font-size: 1.25em;
+		padding: 0.85em 1.85em;
+		text-align: center;
+	}
+
+		input[type="button"]:hover,
+		input[type="submit"]:hover,
+		input[type="reset"]:hover,
+		button:hover,
+		.button:hover {
+			background: #c1edbb;
+		}
+
+		input[type="button"]:active,
+		input[type="submit"]:active,
+		input[type="reset"]:active,
+		button:active,
+		.button:active {
+			background: #a1cd9b;
+		}
+
+		input[type="button"].alt,
+		input[type="submit"].alt,
+		input[type="reset"].alt,
+		button.alt,
+		.button.alt {
+			background: #c1cac5;
+		}
+
+			input[type="button"].alt:hover,
+			input[type="submit"].alt:hover,
+			input[type="reset"].alt:hover,
+			button.alt:hover,
+			.button.alt:hover {
+				background: #ccd5d0;
+			}
+
+			input[type="button"].alt:active,
+			input[type="submit"].alt:active,
+			input[type="reset"].alt:active,
+			button.alt:active,
+			.button.alt:active {
+				background: #b1bab5;
+			}
+
+		input[type="button"].large,
+		input[type="submit"].large,
+		input[type="reset"].large,
+		button.large,
+		.button.large {
+			font-size: 1.65em;
+		}
+		
+		input[type="button"],
 	input[type="submit"],
 	input[type="reset"],
 	button,
@@ -2318,7 +2403,9 @@ hr.social {
 /* Box */
 
 	.box.highlight {
-		text-align: center;
+		text-align: justify;
+  text-justify: inter-word;
+		
 	}
 
 		.box.highlight h2 {
@@ -2332,7 +2419,8 @@ hr.social {
 		}
 
 	.box.feature {
-		text-align: center;
+		text-align: justify;
+  text-justify: inter-word;
 	}
 
 	.box.post header {
@@ -3530,4 +3618,8 @@ hr.social {
   margin-bottom: 1em;
   font-weight: bold;
   
+}
+
+.justifyp {
+	text-align: center;
 }
