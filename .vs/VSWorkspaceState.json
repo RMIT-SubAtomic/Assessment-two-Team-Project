@@ -1,8 +1,11 @@
 {
   "ExpandedNodes": [
     "",
-    "\\profiles"
+    "\\assets",
+    "\\assets\\css",
+    "\\profiles\\test result pics",
+    "\\profiles\\test result pics\\Kyle"
   ],
-  "SelectedNode": "\\team.html",
+  "SelectedNode": "\\assets\\css\\w3css.css",
   "PreviewInSolutionExplorer": false
 }
